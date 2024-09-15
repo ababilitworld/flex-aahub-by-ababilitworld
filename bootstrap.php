@@ -1,5 +1,4 @@
 <?php
-
 namespace Ababilitworld\FlexHubByAbabilitworld;
 
 class Bootstrap
@@ -12,60 +11,39 @@ class Bootstrap
         add_action('admin_menu', array($this, 'admin_menu'));
     }
 
-    public function include_files_in_directory($directory) 
-    {
-        $directory = rtrim($directory, '/') . '/';
-        $iterator = new \RecursiveIteratorIterator(
-            new \RecursiveDirectoryIterator($directory),
-            \RecursiveIteratorIterator::LEAVES_ONLY
-        );
-
-        foreach ($iterator as $file) 
-        {
-            if ($file->isDir()) 
-            {
-                continue;
-            }
-
-            if (pathinfo($file, PATHINFO_EXTENSION) === 'php') 
-            {
-                $relative_path = str_replace([$this->base_dir, '.php'], '', $file->getPathname());
-                $namespace = str_replace('/', '\\', $relative_path);
-                require_once $file;
-            }
-        }
-    }
-
     public function admin_menu() 
     {
-        add_menu_page(
-            'Loaded Classes',
-            'Loaded Classes',
-            'manage_options',
-            'loaded-classes',
-            array($this, 'display_loaded_classes'),
-            'dashicons-admin-generic',
-            9
-        );
-    }
+        global $menu;
+        
+        $menu_slug = 'loaded-classes';
 
-    public function composer_autoload() 
-    {
-        if (file_exists(__DIR__ . '/vendor/autoload.php')) 
+        $menu_exists = false;
+        foreach ($menu as $item) 
         {
-            require __DIR__ . '/vendor/autoload.php';
+            if (isset($item[2]) && $item[2] === $menu_slug) 
+            {
+                $menu_exists = true;
+                break;
+            }
         }
-    }
 
-    public function list_loaded_classes() 
-    {
-        $this->composer_autoload();
-        return get_declared_classes();
+        if (!$menu_exists) 
+        {
+            add_menu_page(
+                'Loaded Classes',
+                'Loaded Classes',
+                'manage_options',
+                $menu_slug,
+                array($this, 'display_loaded_classes'),
+                'dashicons-admin-generic',
+                9
+            );
+        }
     }
 
     public function display_loaded_classes() 
     {
-        $classes = $this->list_loaded_classes();
+        $classes = get_declared_classes();
 
         echo '<div class="wrap">';
         echo '<h1>' . esc_html__('Loaded Classes', 'textdomain') . '</h1>';
@@ -82,10 +60,10 @@ class Bootstrap
     }
 }
 
-// Instantiate the autoload
-$bootstrap = new Bootstrap();
-$bootstrap->composer_autoload();
+if (file_exists(__DIR__ . '/vendor/autoload.php')) 
+{
+    require __DIR__ . '/vendor/autoload.php';
+}
 
-?>
-
+new Bootstrap();
 

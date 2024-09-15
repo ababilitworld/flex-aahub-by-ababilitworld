@@ -123,9 +123,31 @@
 					unlink( $download_path );
 				}
 			}
+
+			public function include_files_in_directory($base_dir,$directory) 
+			{
+				$directory = rtrim($directory, '/') . '/';
+				$iterator = new \RecursiveIteratorIterator(
+					new \RecursiveDirectoryIterator($directory),
+					\RecursiveIteratorIterator::LEAVES_ONLY
+				);
+
+				foreach ($iterator as $file) 
+				{
+					if ($file->isDir()) 
+					{
+						continue;
+					}
+
+					if (pathinfo($file, PATHINFO_EXTENSION) === 'php') 
+					{
+						$relative_path = str_replace([$base_dir, '.php'], '', $file->getPathname());
+						$namespace = str_replace('/', '\\', $relative_path);
+						require_once $file;
+					}
+				}
+			}
 	
 		}
 
 	}
-	
-?>

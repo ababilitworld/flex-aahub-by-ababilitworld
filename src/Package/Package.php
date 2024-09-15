@@ -1,5 +1,4 @@
 <?php
-
 namespace Ababilitworld\FlexHubByAbabilitworld\Package;
 
 (defined('ABSPATH') && defined('WPINC')) || die();
@@ -91,6 +90,3 @@ if (!class_exists(__NAMESPACE__.'\Package'))
         }
     }
 }
-
-
-?>

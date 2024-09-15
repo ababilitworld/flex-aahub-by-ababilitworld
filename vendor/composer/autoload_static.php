@@ -4,20 +4,38 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit1bf5c2cbaa28ce536f8985359db19436
+class ComposerStaticInit65b3c6f3200db8b76b9edd716007ab6b
 {
     public static $files = array (
         'bc376d2aa957911eae7a9ee2fc3d729e' => __DIR__ . '/../..' . '/includes.php',
     );
 
     public static $prefixLengthsPsr4 = array (
+        'F' => 
+        array (
+            'Firebase\\JWT\\' => 13,
+        ),
         'A' => 
         array (
+            'Ababilitworld\\FlexTraitByAbabilitworld\\' => 39,
+            'Ababilitworld\\FlexPaginationByAbabilitworld\\Package\\' => 52,
             'Ababilitworld\\FlexHubByAbabilitworld\\Package\\' => 45,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
+        'Firebase\\JWT\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/firebase/php-jwt/src',
+        ),
+        'Ababilitworld\\FlexTraitByAbabilitworld\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/ababilitworld/flex-trait-by-ababilitworld/src',
+        ),
+        'Ababilitworld\\FlexPaginationByAbabilitworld\\Package\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/ababilitworld/flex-pagination-by-ababilitworld/src/Package',
+        ),
         'Ababilitworld\\FlexHubByAbabilitworld\\Package\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src/Package',
@@ -28,15 +46,34 @@ class ComposerStaticInit1bf5c2cbaa28ce536f8985359db19436
         'Ababilitworld\\FlexHubByAbabilitworld\\Package\\Hub\\Hub' => __DIR__ . '/../..' . '/src/Package/Hub/Hub.php',
         'Ababilitworld\\FlexHubByAbabilitworld\\Package\\Hub\\Service\\Service' => __DIR__ . '/../..' . '/src/Package/Hub/Service/Service.php',
         'Ababilitworld\\FlexHubByAbabilitworld\\Package\\Package' => __DIR__ . '/../..' . '/src/Package/Package.php',
+        'Ababilitworld\\FlexPaginationByAbabilitworld\\Package\\Abstract\\Pagination' => __DIR__ . '/..' . '/ababilitworld/flex-pagination-by-ababilitworld/src/Package/Abstract/Pagination.php',
+        'Ababilitworld\\FlexPaginationByAbabilitworld\\Package\\Interface\\Pagination' => __DIR__ . '/..' . '/ababilitworld/flex-pagination-by-ababilitworld/src/Package/Interface/Pagination.php',
+        'Ababilitworld\\FlexPaginationByAbabilitworld\\Package\\Package' => __DIR__ . '/..' . '/ababilitworld/flex-pagination-by-ababilitworld/src/Package/Package.php',
+        'Ababilitworld\\FlexPaginationByAbabilitworld\\Package\\Presentation\\Presentation' => __DIR__ . '/..' . '/ababilitworld/flex-pagination-by-ababilitworld/src/Package/Presentation/Presentation.php',
+        'Ababilitworld\\FlexPaginationByAbabilitworld\\Package\\Presentation\\Template\\Template' => __DIR__ . '/..' . '/ababilitworld/flex-pagination-by-ababilitworld/src/Package/Presentation/Template/Template.php',
+        'Ababilitworld\\FlexPaginationByAbabilitworld\\Package\\Service\\Service' => __DIR__ . '/..' . '/ababilitworld/flex-pagination-by-ababilitworld/src/Package/Service/Service.php',
+        'Ababilitworld\\FlexTraitByAbabilitworld\\Asset\\Asset' => __DIR__ . '/..' . '/ababilitworld/flex-trait-by-ababilitworld/src/Asset/Asset.php',
+        'Ababilitworld\\FlexTraitByAbabilitworld\\Instance\\Access\\Access' => __DIR__ . '/..' . '/ababilitworld/flex-trait-by-ababilitworld/src/Instance/Access/Access.php',
+        'Ababilitworld\\FlexTraitByAbabilitworld\\Instance\\Instance' => __DIR__ . '/..' . '/ababilitworld/flex-trait-by-ababilitworld/src/Instance/Instance.php',
+        'Ababilitworld\\FlexTraitByAbabilitworld\\Security\\Sanitization\\Sanitization' => __DIR__ . '/..' . '/ababilitworld/flex-trait-by-ababilitworld/src/Security/Sanitization/Sanitization.php',
+        'Ababilitworld\\FlexTraitByAbabilitworld\\Standard\\Standard' => __DIR__ . '/..' . '/ababilitworld/flex-trait-by-ababilitworld/src/Standard/Standard.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+        'Firebase\\JWT\\BeforeValidException' => __DIR__ . '/..' . '/firebase/php-jwt/src/BeforeValidException.php',
+        'Firebase\\JWT\\CachedKeySet' => __DIR__ . '/..' . '/firebase/php-jwt/src/CachedKeySet.php',
+        'Firebase\\JWT\\ExpiredException' => __DIR__ . '/..' . '/firebase/php-jwt/src/ExpiredException.php',
+        'Firebase\\JWT\\JWK' => __DIR__ . '/..' . '/firebase/php-jwt/src/JWK.php',
+        'Firebase\\JWT\\JWT' => __DIR__ . '/..' . '/firebase/php-jwt/src/JWT.php',
+        'Firebase\\JWT\\JWTExceptionWithPayloadInterface' => __DIR__ . '/..' . '/firebase/php-jwt/src/JWTExceptionWithPayloadInterface.php',
+        'Firebase\\JWT\\Key' => __DIR__ . '/..' . '/firebase/php-jwt/src/Key.php',
+        'Firebase\\JWT\\SignatureInvalidException' => __DIR__ . '/..' . '/firebase/php-jwt/src/SignatureInvalidException.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit1bf5c2cbaa28ce536f8985359db19436::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit1bf5c2cbaa28ce536f8985359db19436::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit1bf5c2cbaa28ce536f8985359db19436::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit65b3c6f3200db8b76b9edd716007ab6b::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit65b3c6f3200db8b76b9edd716007ab6b::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit65b3c6f3200db8b76b9edd716007ab6b::$classMap;
 
         }, null, ClassLoader::class);
     }
