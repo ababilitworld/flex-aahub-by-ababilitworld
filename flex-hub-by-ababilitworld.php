@@ -8,7 +8,7 @@
 	 * @wordpress-plugin
 	 * Plugin Name:       Flex Hub By Ababil IT World
 	 * Plugin URI:        https://ababilitworld.com/wp-plugin/flex-hub-by-ababilitworld
-	 * Description:       The AbabilItWorld Plugins's Hub Funtionalities, Exclusively by Ababil IT World.
+	 * Description:       The Ababilitworld Plugins's Hub Funtionalities, Exclusively by Ababil IT World.
 	 * Version:           1.0.0
 	 * Requires at least: 5.2
 	 * Requires PHP:      7.4
@@ -27,10 +27,7 @@
 	 *  - Md Shafiul Alam (cse.shafiul@gmail.com, https://ababilitworld.com/)
 	 */
 
-	/**
-	 * Bootstrap the plugin.
-	 */
-	namespace AbabilItWorld\FlexHubByAbabilitworld;
+    namespace Ababilitworld\FlexHubByAbabilitworld;
 
 	(defined('ABSPATH') && defined('WPINC')) || die();
 
@@ -38,15 +35,10 @@
 	
 	use Ababilitworld\{
 		FlexHubByAbabilitworld\Package\Package,
+		FlexPaginationByAbabilitworld\Package\Package as P,
 	};
 	
 	$package = Package::instance();
 		
 	register_activation_hook(__FILE__, [$package, 'activate']);
 	register_deactivation_hook(__FILE__, [$package, 'deactivate']);
-
-?>
-
-	
-
-	
