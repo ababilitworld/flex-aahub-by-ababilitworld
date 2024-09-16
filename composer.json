@@ -21,7 +21,8 @@
     "require": {
         "firebase/php-jwt": "^6.0",
         "ababilitworld/flex-trait-by-ababilitworld": "dev-main",
-        "ababilitworld/flex-pagination-by-ababilitworld": "dev-main"
+        "ababilitworld/flex-pagination-by-ababilitworld": "dev-main",
+        "ababilitworld/flex-theme-info-by-ababilitworld": "dev-main"
     },
     "autoload": {
         "psr-4": {
@@ -45,9 +46,9 @@
             "version": "1.0.0",
             "requires": {
                 "firebase/php-jwt": "^6.0",
-                "ababilitworld/flex-plugin-info-by-ababilitworld": "dev-main",
                 "ababilitworld/flex-trait-by-ababilitworld": "dev-main",
-                "ababilitworld/flex-pagination-by-ababilitworld": "dev-main"
+                "ababilitworld/flex-pagination-by-ababilitworld": "dev-main",
+                "ababilitworld/flex-theme-info-by-ababilitworld": "dev-main"
             },
             "tested": "6.5",
             "author": "Ababil IT World",
