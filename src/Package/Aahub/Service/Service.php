@@ -1,5 +1,5 @@
 <?php
-    namespace Ababilitworld\FlexHubByAbabilitworld\Package\Hub\Service;
+    namespace Ababilitworld\FlexAahubByAbabilitworld\Package\Aahub\Service;
 
     (defined( 'ABSPATH' ) && defined( 'WPINC' )) || exit();
 
@@ -10,7 +10,7 @@
 		/**
 		 * Class Service
 		 *
-		 * @package Ababilitworld\FlexHubByAbabilitworld\Package\Hub\Service\Service
+		 * @package Ababilitworld\FlexAahubByAbabilitworld\Package\Aahub\Service\Service
 		 */		
 		class Service 
 		{

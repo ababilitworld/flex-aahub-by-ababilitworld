@@ -6,15 +6,19 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Ababilitworld\\FlexHubByAbabilitworld\\Package\\Hub\\Hub' => $baseDir . '/src/Package/Hub/Hub.php',
-    'Ababilitworld\\FlexHubByAbabilitworld\\Package\\Hub\\Service\\Service' => $baseDir . '/src/Package/Hub/Service/Service.php',
-    'Ababilitworld\\FlexHubByAbabilitworld\\Package\\Package' => $baseDir . '/src/Package/Package.php',
+    'Ababilitworld\\FlexAahubByAbabilitworld\\Package\\Aahub\\Aahub' => $baseDir . '/src/Package/Aahub/Aahub.php',
+    'Ababilitworld\\FlexAahubByAbabilitworld\\Package\\Aahub\\Service\\Service' => $baseDir . '/src/Package/Aahub/Service/Service.php',
+    'Ababilitworld\\FlexAahubByAbabilitworld\\Package\\Package' => $baseDir . '/src/Package/Package.php',
     'Ababilitworld\\FlexPaginationByAbabilitworld\\Package\\Abstract\\Pagination' => $vendorDir . '/ababilitworld/flex-pagination-by-ababilitworld/src/Package/Abstract/Pagination.php',
     'Ababilitworld\\FlexPaginationByAbabilitworld\\Package\\Interface\\Pagination' => $vendorDir . '/ababilitworld/flex-pagination-by-ababilitworld/src/Package/Interface/Pagination.php',
     'Ababilitworld\\FlexPaginationByAbabilitworld\\Package\\Package' => $vendorDir . '/ababilitworld/flex-pagination-by-ababilitworld/src/Package/Package.php',
     'Ababilitworld\\FlexPaginationByAbabilitworld\\Package\\Presentation\\Presentation' => $vendorDir . '/ababilitworld/flex-pagination-by-ababilitworld/src/Package/Presentation/Presentation.php',
     'Ababilitworld\\FlexPaginationByAbabilitworld\\Package\\Presentation\\Template\\Template' => $vendorDir . '/ababilitworld/flex-pagination-by-ababilitworld/src/Package/Presentation/Template/Template.php',
     'Ababilitworld\\FlexPaginationByAbabilitworld\\Package\\Service\\Service' => $vendorDir . '/ababilitworld/flex-pagination-by-ababilitworld/src/Package/Service/Service.php',
+    'Ababilitworld\\FlexThemeInfoByAbabilitworld\\Package\\Package' => $vendorDir . '/ababilitworld/flex-theme-info-by-ababilitworld/src/Package/Package.php',
+    'Ababilitworld\\FlexThemeInfoByAbabilitworld\\Package\\Presentation\\Presentation' => $vendorDir . '/ababilitworld/flex-theme-info-by-ababilitworld/src/Package/Presentation/Presentation.php',
+    'Ababilitworld\\FlexThemeInfoByAbabilitworld\\Package\\Presentation\\Template\\Template' => $vendorDir . '/ababilitworld/flex-theme-info-by-ababilitworld/src/Package/Presentation/Template/Template.php',
+    'Ababilitworld\\FlexThemeInfoByAbabilitworld\\Package\\Service\\Service' => $vendorDir . '/ababilitworld/flex-theme-info-by-ababilitworld/src/Package/Service/Service.php',
     'Ababilitworld\\FlexTraitByAbabilitworld\\Asset\\Asset' => $vendorDir . '/ababilitworld/flex-trait-by-ababilitworld/src/Asset/Asset.php',
     'Ababilitworld\\FlexTraitByAbabilitworld\\Instance\\Access\\Access' => $vendorDir . '/ababilitworld/flex-trait-by-ababilitworld/src/Instance/Access/Access.php',
     'Ababilitworld\\FlexTraitByAbabilitworld\\Instance\\Instance' => $vendorDir . '/ababilitworld/flex-trait-by-ababilitworld/src/Instance/Instance.php',

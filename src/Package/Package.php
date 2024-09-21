@@ -1,11 +1,11 @@
 <?php
-namespace Ababilitworld\FlexHubByAbabilitworld\Package;
+namespace Ababilitworld\FlexAahubByAbabilitworld\Package;
 
 (defined('ABSPATH') && defined('WPINC')) || die();
 
 use Ababilitworld\FlexTraitByAbabilitworld\Standard\Standard;
 
-use const Ababilitworld\FlexHubByAbabilitworld\{
+use const Ababilitworld\FlexAahubByAbabilitworld\{
     PLUGIN_NAME,
     PLUGIN_FILE,
     PLUGIN_DIR,
@@ -18,7 +18,7 @@ if (!class_exists(__NAMESPACE__.'\Package'))
     /**
      * Class Package
      *
-     * @package Ababilitworld\FlexHubByAbabilitworld\Package\Package
+     * @package Ababilitworld\FlexAahubByAbabilitworld\Package\Package
      */
     class Package
     {
