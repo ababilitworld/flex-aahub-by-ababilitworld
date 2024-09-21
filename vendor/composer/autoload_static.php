@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit65b3c6f3200db8b76b9edd716007ab6b
+class ComposerStaticInit23ede24576e67e3dc242e29abf344af1
 {
     public static $files = array (
         'bc376d2aa957911eae7a9ee2fc3d729e' => __DIR__ . '/../..' . '/includes.php',
@@ -18,8 +18,9 @@ class ComposerStaticInit65b3c6f3200db8b76b9edd716007ab6b
         'A' => 
         array (
             'Ababilitworld\\FlexTraitByAbabilitworld\\' => 39,
+            'Ababilitworld\\FlexThemeInfoByAbabilitworld\\Package\\' => 51,
             'Ababilitworld\\FlexPaginationByAbabilitworld\\Package\\' => 52,
-            'Ababilitworld\\FlexHubByAbabilitworld\\Package\\' => 45,
+            'Ababilitworld\\FlexAahubByAbabilitworld\\Package\\' => 45,
         ),
     );
 
@@ -32,26 +33,34 @@ class ComposerStaticInit65b3c6f3200db8b76b9edd716007ab6b
         array (
             0 => __DIR__ . '/..' . '/ababilitworld/flex-trait-by-ababilitworld/src',
         ),
+        'Ababilitworld\\FlexThemeInfoByAbabilitworld\\Package\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/ababilitworld/flex-theme-info-by-ababilitworld/src/Package',
+        ),
         'Ababilitworld\\FlexPaginationByAbabilitworld\\Package\\' => 
         array (
             0 => __DIR__ . '/..' . '/ababilitworld/flex-pagination-by-ababilitworld/src/Package',
         ),
-        'Ababilitworld\\FlexHubByAbabilitworld\\Package\\' => 
+        'Ababilitworld\\FlexAahubByAbabilitworld\\Package\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src/Package',
         ),
     );
 
     public static $classMap = array (
-        'Ababilitworld\\FlexHubByAbabilitworld\\Package\\Hub\\Hub' => __DIR__ . '/../..' . '/src/Package/Hub/Hub.php',
-        'Ababilitworld\\FlexHubByAbabilitworld\\Package\\Hub\\Service\\Service' => __DIR__ . '/../..' . '/src/Package/Hub/Service/Service.php',
-        'Ababilitworld\\FlexHubByAbabilitworld\\Package\\Package' => __DIR__ . '/../..' . '/src/Package/Package.php',
+        'Ababilitworld\\FlexAahubByAbabilitworld\\Package\\Aahub\\Aahub' => __DIR__ . '/../..' . '/src/Package/Aahub/Aahub.php',
+        'Ababilitworld\\FlexAahubByAbabilitworld\\Package\\Aahub\\Service\\Service' => __DIR__ . '/../..' . '/src/Package/Aahub/Service/Service.php',
+        'Ababilitworld\\FlexAahubByAbabilitworld\\Package\\Package' => __DIR__ . '/../..' . '/src/Package/Package.php',
         'Ababilitworld\\FlexPaginationByAbabilitworld\\Package\\Abstract\\Pagination' => __DIR__ . '/..' . '/ababilitworld/flex-pagination-by-ababilitworld/src/Package/Abstract/Pagination.php',
         'Ababilitworld\\FlexPaginationByAbabilitworld\\Package\\Interface\\Pagination' => __DIR__ . '/..' . '/ababilitworld/flex-pagination-by-ababilitworld/src/Package/Interface/Pagination.php',
         'Ababilitworld\\FlexPaginationByAbabilitworld\\Package\\Package' => __DIR__ . '/..' . '/ababilitworld/flex-pagination-by-ababilitworld/src/Package/Package.php',
         'Ababilitworld\\FlexPaginationByAbabilitworld\\Package\\Presentation\\Presentation' => __DIR__ . '/..' . '/ababilitworld/flex-pagination-by-ababilitworld/src/Package/Presentation/Presentation.php',
         'Ababilitworld\\FlexPaginationByAbabilitworld\\Package\\Presentation\\Template\\Template' => __DIR__ . '/..' . '/ababilitworld/flex-pagination-by-ababilitworld/src/Package/Presentation/Template/Template.php',
         'Ababilitworld\\FlexPaginationByAbabilitworld\\Package\\Service\\Service' => __DIR__ . '/..' . '/ababilitworld/flex-pagination-by-ababilitworld/src/Package/Service/Service.php',
+        'Ababilitworld\\FlexThemeInfoByAbabilitworld\\Package\\Package' => __DIR__ . '/..' . '/ababilitworld/flex-theme-info-by-ababilitworld/src/Package/Package.php',
+        'Ababilitworld\\FlexThemeInfoByAbabilitworld\\Package\\Presentation\\Presentation' => __DIR__ . '/..' . '/ababilitworld/flex-theme-info-by-ababilitworld/src/Package/Presentation/Presentation.php',
+        'Ababilitworld\\FlexThemeInfoByAbabilitworld\\Package\\Presentation\\Template\\Template' => __DIR__ . '/..' . '/ababilitworld/flex-theme-info-by-ababilitworld/src/Package/Presentation/Template/Template.php',
+        'Ababilitworld\\FlexThemeInfoByAbabilitworld\\Package\\Service\\Service' => __DIR__ . '/..' . '/ababilitworld/flex-theme-info-by-ababilitworld/src/Package/Service/Service.php',
         'Ababilitworld\\FlexTraitByAbabilitworld\\Asset\\Asset' => __DIR__ . '/..' . '/ababilitworld/flex-trait-by-ababilitworld/src/Asset/Asset.php',
         'Ababilitworld\\FlexTraitByAbabilitworld\\Instance\\Access\\Access' => __DIR__ . '/..' . '/ababilitworld/flex-trait-by-ababilitworld/src/Instance/Access/Access.php',
         'Ababilitworld\\FlexTraitByAbabilitworld\\Instance\\Instance' => __DIR__ . '/..' . '/ababilitworld/flex-trait-by-ababilitworld/src/Instance/Instance.php',
@@ -71,9 +80,9 @@ class ComposerStaticInit65b3c6f3200db8b76b9edd716007ab6b
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit65b3c6f3200db8b76b9edd716007ab6b::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit65b3c6f3200db8b76b9edd716007ab6b::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit65b3c6f3200db8b76b9edd716007ab6b::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit23ede24576e67e3dc242e29abf344af1::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit23ede24576e67e3dc242e29abf344af1::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit23ede24576e67e3dc242e29abf344af1::$classMap;
 
         }, null, ClassLoader::class);
     }

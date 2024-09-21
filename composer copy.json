@@ -1,9 +1,9 @@
 {
-    "name": "ababilitworld/flex-hub-by-ababilitworld",
-    "description": "The Ababilitworld Plugins's Hub Funtionalities, Exclusively by Ababil IT World.",
+    "name": "ababilitworld/flex-aahub-by-ababilitworld",
+    "description": "The Ababilitworld Plugins's Aahub Funtionalities, Exclusively by Ababil IT World.",
     "type": "wordpress-plugin",
     "keywords": ["wordpress", "plugin", "ababilitworld", "hub"],
-    "homepage": "https://ababilitworld.com/wp-plugin/flex-hub-by-ababilitworld",
+    "homepage": "https://ababilitworld.com/wp-plugin/flex-aahub-by-ababilitworld",
     "license": "GPL-3.0-or-later",
     "license_uri": "https://www.gnu.org/licenses/gpl-3.0.html",
     "authors": [
@@ -25,7 +25,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Ababilitworld\\FlexHubByAbabilitworld\\Package\\": "src/Package"
+            "Ababilitworld\\FlexAahubByAbabilitworld\\Package\\": "src/Package"
         },
         "files": [
             "includes.php"
@@ -34,14 +34,14 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/ababilitworld/flex-hub-by-ababilitworld"
+            "url": "https://github.com/ababilitworld/flex-aahub-by-ababilitworld"
         }
     ],
     "extra": { 
         "wordpress-plugin": {
-            "name": "Flex Hub By Ababil IT World",
-            "uri": "https://ababilitworld.com/wp-plugin/flex-hub-by-ababilitworld",
-            "description": "The Ababilitworld Plugins's Hub Funtionalities, Exclusively by Ababil IT World.",
+            "name": "Flex Aahub By Ababil IT World",
+            "uri": "https://ababilitworld.com/wp-plugin/flex-aahub-by-ababilitworld",
+            "description": "The Ababilitworld Plugins's Aahub Funtionalities, Exclusively by Ababil IT World.",
             "version": "1.0.0",
             "requires": {
                 "firebase/php-jwt": "^6.0",
@@ -54,10 +54,10 @@
             "author_uri": "https://ababilitworld.com/",
             "author_email": "ababilitworld@gmail.com",
             "license": "GPL-3.0-or-later",
-            "text_domain": "flex-hub-by-ababilitworld",
+            "text_domain": "flex-aahub-by-ababilitworld",
             "domain_path": "/language",
-            "namespace": "Ababilitworld\\FlexHubByAbabilitworld",
-            "prefix": "Ababilitworld\\FlexHubByAbabilitworld\\PLUGIN_DIR"
+            "namespace": "Ababilitworld\\FlexAahubByAbabilitworld",
+            "prefix": "Ababilitworld\\FlexAahubByAbabilitworld\\PLUGIN_DIR"
         }
     }
 }

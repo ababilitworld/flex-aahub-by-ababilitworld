@@ -1,14 +1,14 @@
 <?php
 
 	/**
-	 * Flex Hub By Ababil IT World
+	 * Flex Aahub By Ababil IT World
 	 *
-	 * @package ababilitworld/flex-hub-by-ababilitworld
+	 * @package ababilitworld/flex-aahub-by-ababilitworld
 	 *
 	 * @wordpress-plugin
-	 * Plugin Name:       Flex Hub By Ababil IT World
-	 * Plugin URI:        https://ababilitworld.com/wp-plugin/flex-hub-by-ababilitworld
-	 * Description:       The Ababilitworld Plugins's Hub Funtionalities, Exclusively by Ababil IT World.
+	 * Plugin Name:       Flex Aahub By Ababil IT World
+	 * Plugin URI:        https://ababilitworld.com/wp-plugin/flex-aahub-by-ababilitworld
+	 * Description:       The Ababilitworld Plugins's Aahub Funtionalities, Exclusively by Ababil IT World.
 	 * Version:           1.0.0
 	 * Requires at least: 5.2
 	 * Requires PHP:      7.4
@@ -19,7 +19,7 @@
 	 * Author Email:      ababilitworld@gmail.com
 	 * License:           GPL v3 or later
 	 * License URI:       https://www.gnu.org/licenses/gpl-3.0.html
-	 * Text Domain:       flex-hub-by-ababilitworld
+	 * Text Domain:       flex-aahub-by-ababilitworld
 	 * Domain Path:       /language
 	 *
 	 * Contributors:
@@ -27,15 +27,14 @@
 	 *  - Md Shafiul Alam (cse.shafiul@gmail.com, https://ababilitworld.com/)
 	 */
 
-    namespace Ababilitworld\FlexHubByAbabilitworld;
+    namespace Ababilitworld\FlexAahubByAbabilitworld;
 
 	(defined('ABSPATH') && defined('WPINC')) || die();
 
 	require_once __DIR__ . '/bootstrap.php';
 	
 	use Ababilitworld\{
-		FlexHubByAbabilitworld\Package\Package,
-		FlexPaginationByAbabilitworld\Package\Package as P,
+		FlexAahubByAbabilitworld\Package\Package
 	};
 	
 	$package = Package::instance();

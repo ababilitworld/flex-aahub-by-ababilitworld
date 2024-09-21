@@ -1,18 +1,18 @@
 <?php
-    namespace Ababilitworld\FlexHubByAbabilitworld\Package\Hub;
+    namespace Ababilitworld\FlexAahubByAbabilitworld\Package\Aahub;
 
     (defined( 'ABSPATH' ) && defined( 'WPINC' )) || exit();
 
 	use Ababilitworld\FlexTraitByAbabilitworld\Standard\Standard;
 
-	if ( ! class_exists( __NAMESPACE__.'\Hub' ) ) 
+	if ( ! class_exists( __NAMESPACE__.'\Aahub' ) ) 
 	{
 		/**
-		 * Class Hub
+		 * Class Aahub
 		 *
-		 * @package \Ababilitworld\FlexHubByAbabilitworld\Package\Hub
+		 * @package \Ababilitworld\FlexAahubByAbabilitworld\Package\Aahub
 		 */
-		class Hub 
+		class Aahub 
 		{
 			use Standard;
 	
