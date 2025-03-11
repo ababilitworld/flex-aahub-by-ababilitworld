@@ -23,7 +23,8 @@
         "ababilitworld/flex-trait-by-ababilitworld": "dev-main",
         "ababilitworld/flex-pagination-by-ababilitworld": "dev-main",
         "ababilitworld/flex-theme-info-by-ababilitworld": "dev-main",
-        "ababilitworld/flex-menu-man-by-ababilitworld": "dev-main"
+        "ababilitworld/flex-menu-man-by-ababilitworld": "dev-main",
+        "ababilitworld/flex-wordpress-by-ababilitworld": "dev-main"
     },
     "autoload": {
         "psr-4": {
