@@ -1,20 +1,22 @@
 <?php
-    namespace Ababilitworld\FlexAahubByAbabilitworld\Package\Aahub;
+    namespace Ababilithub\FlexAahub\Package\Aahub;
 
     (defined( 'ABSPATH' ) && defined( 'WPINC' )) || exit();
 
-	use Ababilitworld\FlexTraitByAbabilitworld\Standard\Standard;
+	use Ababilithub\{
+		FlexPhp\Package\Mixin\Standard\V1\V1 as StandardMixin
+	};
 
 	if ( ! class_exists( __NAMESPACE__.'\Aahub' ) ) 
 	{
 		/**
 		 * Class Aahub
 		 *
-		 * @package \Ababilitworld\FlexAahubByAbabilitworld\Package\Aahub
+		 * @package \Ababilithub\FlexAahub\Package\Aahub
 		 */
 		class Aahub 
 		{
-			use Standard;
+			use StandardMixin;
 	
 			/**
 			 * Constructor

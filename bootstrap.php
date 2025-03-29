@@ -1,5 +1,5 @@
 <?php
-namespace Ababilitworld\FlexAahubByAbabilitworld;
+namespace Ababilithub\FlexAahub;
 
 class Bootstrap
 {

@@ -1,16 +1,18 @@
 <?php
-namespace Ababilitworld\FlexAahubByAbabilitworld\Package;
+namespace Ababilithub\FlexAahub\Package;
 
 (defined('ABSPATH') && defined('WPINC')) || die();
 
-use Ababilitworld\FlexTraitByAbabilitworld\Standard\Standard;
+use Ababilithub\{
+    FlexPhp\Package\Mixin\Standard\V1\V1 as StandardMixin
+};
 
-use const Ababilitworld\FlexAahubByAbabilitworld\{
-    PLUGIN_NAME,
-    PLUGIN_FILE,
-    PLUGIN_DIR,
-    PLUGIN_URL,
-    PLUGIN_VERSION
+use const Ababilithub\{
+    FlexAahub\PLUGIN_NAME,
+    FlexAahub\PLUGIN_FILE,
+    FlexAahub\PLUGIN_DIR,
+    FlexAahub\PLUGIN_URL,
+    FlexAahub\PLUGIN_VERSION
 };
 
 if (!class_exists(__NAMESPACE__.'\Package')) 
@@ -18,11 +20,11 @@ if (!class_exists(__NAMESPACE__.'\Package'))
     /**
      * Class Package
      *
-     * @package Ababilitworld\FlexAahubByAbabilitworld\Package\Package
+     * @package Ababilithub\FlexAahub\Package\Package
      */
     class Package
     {
-        use Standard;
+        use StandardMixin;
 
         /**
          * Package version

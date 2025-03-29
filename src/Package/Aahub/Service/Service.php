@@ -1,20 +1,22 @@
 <?php
-    namespace Ababilitworld\FlexAahubByAbabilitworld\Package\Aahub\Service;
+    namespace Ababilithub\FlexAahub\Package\Aahub\Service;
 
     (defined( 'ABSPATH' ) && defined( 'WPINC' )) || exit();
 
-    use Ababilitworld\FlexTraitByAbabilitworld\Standard\Standard;
+    use Ababilithub\{
+		FlexPhp\Package\Mixin\Standard\V1\V1 as StandardMixin
+	};
 
 	if ( ! class_exists( __NAMESPACE__.'\Service' ) ) 
 	{
 		/**
 		 * Class Service
 		 *
-		 * @package Ababilitworld\FlexAahubByAbabilitworld\Package\Aahub\Service\Service
+		 * @package Ababilithub\FlexAahub\Package\Aahub\Service\Service
 		 */		
 		class Service 
 		{
-            use Standard;
+            use StandardMixin;
             
 			public static function check_array_key_exists( $array, $keys ) 
 			{
