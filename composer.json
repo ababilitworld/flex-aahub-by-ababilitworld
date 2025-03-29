@@ -20,8 +20,8 @@
     ],
     "require": {
         "firebase/php-jwt": "^6.0",
-        "ababilithub/flex-php": "dev-main",
-        "ababilithub/flex-wordpress": "dev-main"       
+        "ababilitworld/flex-php": "dev-main",
+        "ababilitworld/flex-wordpress": "dev-main"       
     },
     "autoload": {
         "psr-4": {
