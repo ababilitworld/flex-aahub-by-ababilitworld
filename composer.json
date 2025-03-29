@@ -1,5 +1,5 @@
 {
-    "name": "ababilithub/flex-aahub-by-ababilithub",
+    "name": "ababilitworld/flex-aahub-by-ababilitworld",
     "description": "The Ababilithub Plugins's Aahub Funtionalities, Exclusively by Ababil IT World.",
     "type": "wordpress-plugin",
     "keywords": ["wordpress", "plugin", "ababilithub", "hub"],
@@ -34,7 +34,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/ababilithub/flex-aahub-by-ababilithub"
+            "url": "https://github.com/ababilitworld/flex-aahub-by-ababilitworld"
         }
     ],
     "extra": { 

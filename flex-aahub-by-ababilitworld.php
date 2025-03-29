@@ -3,7 +3,7 @@
 	/**
 	 * Flex Aahub By Ababil IT World
 	 *
-	 * @package ababilithub/flex-aahub-by-ababilithub
+	 * @package ababilitworld/flex-aahub-by-ababilitworld
 	 *
 	 * @wordpress-plugin
 	 * Plugin Name:       Flex Aahub By Ababil IT World
