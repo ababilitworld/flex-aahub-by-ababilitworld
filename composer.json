@@ -21,10 +21,7 @@
     "require": {
         "firebase/php-jwt": "^6.0",
         "ababilitworld/flex-php": "dev-main",
-        "ababilitworld/flex-wordpress": "dev-main",
-        "ababilitworld/flex-wordpress-by-ababilitworld": "dev-main",
-        "ababilitworld/flex-trait-by-ababilitworld": "dev-main",
-        "ababilitworld/flex-pagination-by-ababilitworld": "dev-main"        
+        "ababilitworld/flex-wordpress": "dev-main"       
     },
     "autoload": {
         "psr-4": {
