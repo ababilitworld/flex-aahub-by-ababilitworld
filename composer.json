@@ -25,7 +25,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Ababilithub\\FlexAahub\\Package\\": "src/Package"
+            "Ababilithub\\FlexAahub\\": "src/"
         },
         "files": [
             "includes.php"

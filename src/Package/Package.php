@@ -4,7 +4,7 @@ namespace Ababilithub\FlexAahub\Package;
 (defined('ABSPATH') && defined('WPINC')) || die();
 
 use Ababilithub\{
-    FlexPhp\Package\Mixin\Standard\V1\V1 as StandardMixin
+    FlexPhp\Package\Mixin\V1\Standard\Mixin as StandardMixin
 };
 
 use const Ababilithub\{
