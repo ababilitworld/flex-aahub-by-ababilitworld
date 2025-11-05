@@ -1,0 +1,20 @@
+@-webkit-keyframes shimmer 
+{
+    0% { 
+        transform: rotate(45deg) translateX(-100%); 
+    }
+    100% { 
+        transform: rotate(45deg) translateX(200%); 
+    }
+} 
+
+
+@keyframes shimmer 
+{
+    0% { 
+        transform: rotate(45deg) translateX(-100%); 
+    }
+    100% { 
+        transform: rotate(45deg) translateX(200%); 
+    }
+} 

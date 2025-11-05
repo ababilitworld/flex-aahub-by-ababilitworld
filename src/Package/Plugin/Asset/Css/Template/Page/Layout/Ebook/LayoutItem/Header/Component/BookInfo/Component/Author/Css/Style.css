@@ -1,0 +1,5 @@
+.ababilithub .template.page .layout.ebook .header .component.book-info .author{ 
+    grid-area: author; 
+    padding: 10px;
+    text-align: center;
+}
