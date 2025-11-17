@@ -1,0 +1,156 @@
+/* Forest Green Theme */
+.forest-green {
+    --faih-color-primary-lite: #80e27e;
+    --faih-color-primary: #4caf50;
+    --faih-color-primary-dark: #087f23;
+    --faih-color-secondary-lite: #a5d6a7;
+    --faih-color-secondary: #66bb6a;
+    --faih-color-secondary-dark: #388e3c;
+    --faih-color-text-lite: #e8f5e9;
+    --faih-color-text: #1b5e20;
+    --faih-color-text-dark: #003300;
+    --faih-color-background-lite: #e8f5e9;
+    --faih-color-background: #c8e6c9;
+    --faih-color-background-dark: #1b5e20;
+    --faih-color-lite-gray: #a5d6a7;
+    --faih-color-medium-gray: #81c784;
+    --faih-color-dark-gray: #4caf50;
+    --faih-color-white: #ffffff;
+    --faih-color-badge-bg: #2e7d32;
+    --faih-color-badge-text: #ffffff;
+    --faih-color-box-shadow-lite: #0000001A;
+    --faih-color-box-shadow: #0000001A;
+    --faih-color-box-shadow-dark: #0000001A;
+}
+
+/* Ocean Blue Theme */
+.ocean-blue {
+    --faih-color-primary-lite: #82b1ff;
+    --faih-color-primary: #1976d2;
+    --faih-color-primary-dark: #0d47a1;
+    --faih-color-secondary-lite: #80d8ff;
+    --faih-color-secondary: #0091ea;
+    --faih-color-secondary-dark: #0064b7;
+    --faih-color-text-lite: #e3f2fd;
+    --faih-color-text: #0d47a1;
+    --faih-color-text-dark: #002171;
+    --faih-color-background-lite: #e3f2fd;
+    --faih-color-background: #bbdefb;
+    --faih-color-background-dark: #0d47a1;
+    --faih-color-lite-gray: #90caf9;
+    --faih-color-medium-gray: #64b5f6;
+    --faih-color-dark-gray: #1976d2;
+    --faih-color-white: #ffffff;
+    --faih-color-badge-bg: #1565c0;
+    --faih-color-badge-text: #ffffff;
+}
+
+/* Royal Purple Theme */
+.royal-purple {
+    --faih-color-primary-lite: #b39ddb;
+    --faih-color-primary: #673ab7;
+    --faih-color-primary-dark: #4527a0;
+    --faih-color-secondary-lite: #d1c4e9;
+    --faih-color-secondary: #9575cd;
+    --faih-color-secondary-dark: #65499c;
+    --faih-color-text-lite: #ede7f6;
+    --faih-color-text: #4527a0;
+    --faih-color-text-dark: #000070;
+    --faih-color-background-lite: #ede7f6;
+    --faih-color-background: #d1c4e9;
+    --faih-color-background-dark: #4527a0;
+    --faih-color-lite-gray: #b39ddb;
+    --faih-color-medium-gray: #9575cd;
+    --faih-color-dark-gray: #673ab7;
+    --faih-color-white: #ffffff;
+    --faih-color-badge-bg: #5e35b1;
+    --faih-color-badge-text: #ffffff;
+}
+
+/* Sunset Orange Theme */
+.sunset-orange {
+    --faih-color-primary-lite: #ffb74d;
+    --faih-color-primary: #f57c00;
+    --faih-color-primary-dark: #e65100;
+    --faih-color-secondary-lite: #ffcc80;
+    --faih-color-secondary: #ff9800;
+    --faih-color-secondary-dark: #f57c00;
+    --faih-color-text-lite: #fff3e0;
+    --faih-color-text: #bf360c;
+    --faih-color-text-dark: #870000;
+    --faih-color-background-lite: #fff3e0;
+    --faih-color-background: #ffe0b2;
+    --faih-color-background-dark: #bf360c;
+    --faih-color-lite-gray: #ffb74d;
+    --faih-color-medium-gray: #ffa726;
+    --faih-color-dark-gray: #f57c00;
+    --faih-color-white: #ffffff;
+    --faih-color-badge-bg: #ef6c00;
+    --faih-color-badge-text: #ffffff;
+}
+
+/* Deep Pink Theme */
+.deep-pink {
+    --faih-color-primary-lite: #f48fb1;
+    --faih-color-primary: #d81b60;
+    --faih-color-primary-dark: #880e4f;
+    --faih-color-secondary-lite: #f8bbd0;
+    --faih-color-secondary: #ec407a;
+    --faih-color-secondary-dark: #ad1457;
+    --faih-color-text-lite: #fce4ec;
+    --faih-color-text: #880e4f;
+    --faih-color-text-dark: #560027;
+    --faih-color-background-lite: #fce4ec;
+    --faih-color-background: #f8bbd0;
+    --faih-color-background-dark: #880e4f;
+    --faih-color-lite-gray: #f48fb1;
+    --faih-color-medium-gray: #f06292;
+    --faih-color-dark-gray: #d81b60;
+    --faih-color-white: #ffffff;
+    --faih-color-badge-bg: #c2185b;
+    --faih-color-badge-text: #ffffff;
+}
+
+/* Midnight Dark Theme */
+.midnight-dark {
+    --faih-color-primary-lite: #718792;
+    --faih-color-primary: #455a64;
+    --faih-color-primary-dark: #1c313a;
+    --faih-color-secondary-lite: #90a4ae;
+    --faih-color-secondary: #607d8b;
+    --faih-color-secondary-dark: #34515e;
+    --faih-color-text-lite: #cfd8dc;
+    --faih-color-text: #ffffff;
+    --faih-color-text-dark: #cfd8dc;
+    --faih-color-background-lite: #37474f;
+    --faih-color-background: #263238;
+    --faih-color-background-dark: #102027;
+    --faih-color-lite-gray: #546e7a;
+    --faih-color-medium-gray: #455a64;
+    --faih-color-dark-gray: #37474f;
+    --faih-color-white: #ffffff;
+    --faih-color-badge-bg: #00897b;
+    --faih-color-badge-text: #ffffff;
+}
+
+/* Gold Luxury Theme */
+.gold-luxury {
+    --faih-color-primary-lite: #ffd54f;
+    --faih-color-primary: #ffb300;
+    --faih-color-primary-dark: #ff8f00;
+    --faih-color-secondary-lite: #ffecb3;
+    --faih-color-secondary: #ffd740;
+    --faih-color-secondary-dark: #ffc400;
+    --faih-color-text-lite: #fff8e1;
+    --faih-color-text: #5d4037;
+    --faih-color-text-dark: #3e2723;
+    --faih-color-background-lite: #fff8e1;
+    --faih-color-background: #ffecb3;
+    --faih-color-background-dark: #5d4037;
+    --faih-color-lite-gray: #ffd54f;
+    --faih-color-medium-gray: #ffc107;
+    --faih-color-dark-gray: #ffb300;
+    --faih-color-white: #ffffff;
+    --faih-color-badge-bg: #ff6f00;
+    --faih-color-badge-text: #ffffff;
+}

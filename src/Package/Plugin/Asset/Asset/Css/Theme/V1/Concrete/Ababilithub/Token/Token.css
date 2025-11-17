@@ -1,0 +1,39 @@
+@import url('Px/Manager/Style.css');
+@import url('Rem/Manager/Style.css');
+@import url('Em/Manager/Style.css');
+
+/*
+
+🏆 When to Use Each Unit
+
+    Use PX for:
+
+        Borders: border: 1px solid #ccc;
+
+        Shadows: box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+
+        Fixed radii: border-radius: 4px;
+
+        Tiny decorative elements
+
+    Use REM for:
+
+        Layout spacing: padding, margin, gap
+
+        Container sizes: max-width, width, height
+
+        Component spacing that should scale with user preferences
+
+        Vertical rhythm throughout the application
+
+    Use EM for:
+
+        Typography-related spacing: letter-spacing, text-indent
+
+        Component-internal spacing that should scale with component font size
+
+        Buttons, form elements where spacing should relate to text size
+
+        Icons relative to text
+
+*/

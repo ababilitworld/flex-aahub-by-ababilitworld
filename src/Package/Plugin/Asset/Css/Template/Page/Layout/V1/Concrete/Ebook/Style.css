@@ -1,13 +1,11 @@
 /* Mobile First Grid Container */
-.ababilithub .template.page .layout.ebook {
-    display: grid;
+.ababilithub .template.page .layout.ebook 
+{
     grid-template-areas: 
         'header'
         'sidebar'
         'main'
         'footer';
-    grid-gap: 1.20rem;
-    padding: 1rem;
 }
 
 /* Tablet devices (768px and up) */
@@ -20,6 +18,8 @@
             'sidebar main'
             'footer footer';
         grid-template-columns: 300px 1fr;
+        margin: 0 auto;
+        padding: 1rem;
     }
 }
 

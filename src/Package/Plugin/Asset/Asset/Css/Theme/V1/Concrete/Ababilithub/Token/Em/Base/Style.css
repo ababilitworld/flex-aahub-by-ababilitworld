@@ -1,0 +1,134 @@
+:root
+{ 
+    /*///////////////////////////////////////////////////////
+    // EM values (for typography and component scaling)
+    ///////////////////////////////////////////////////////*/
+
+    /* === MICRO SPACING - For precise typographic control === */
+    --faih-micro-em: 0.125em;    /* 2px equivalent - hairline spacing */
+    --faih-tiny-em: 0.25em;      /* 4px equivalent - icon padding, tight gaps */
+    --faih-mini-em: 0.375em;     /* 6px equivalent - compact element spacing */
+
+    /* === SMALL SPACING - For component internals === */
+    --faih-xs-em: 0.5em;         /* 8px equivalent - tight padding, small gaps */
+    --faih-sm-em: 0.75em;        /* 12px equivalent - standard internal padding */
+    --faih-compact-em: 0.875em;  /* 14px equivalent - comfortable internal spacing */
+
+    /* === MEDIUM SPACING - For component relationships === */
+    --faih-base-em: 1em;         /* 16px equivalent - 1:1 with font size */
+    --faih-md-em: 1.125em;       /* 18px equivalent - generous internal padding */
+    --faih-comfort-em: 1.25em;   /* 20px equivalent - comfortable component spacing */
+
+    /* === LARGE SPACING - For component grouping === */
+    --faih-lg-em: 1.5em;         /* 24px equivalent - section padding, card spacing */
+    --faih-xl-em: 2em;           /* 32px equivalent - major component separation */
+    --faih-expanded-em: 2.25em;  /* 36px equivalent - generous section spacing */
+
+    /* === EXTRA LARGE SPACING - For layout sections === */
+    --faih-xxl-em: 3em;          /* 48px equivalent - major section separation */
+    --faih-xxxl-em: 4em;         /* 64px equivalent - hero section spacing */
+    --faih-massive-em: 6em;      /* 96px equivalent - massive breathing room */
+
+    /* === SECTION SPACING - For page layout === */
+    --faih-section-sm-em: 8em;   /* 128px equivalent - small section gaps */
+    --faih-section-md-em: 12em;  /* 192px equivalent - standard section separation */
+    --faih-section-lg-em: 16em;  /* 256px equivalent - large content blocks */
+
+    
+    /* === COMPONENT-SPECIFIC EM TOKENS === */
+
+    /* Button Scaling */
+    --faih-button-padding-y: var(--faih-sm-em);
+    --faih-button-padding-x: var(--faih-md-em);
+    --faih-button-gap: var(--faih-xs-em);
+    --faih-button-border-radius: 0.375em;
+
+    /* Form Element Scaling */
+    --faih-input-padding-y: var(--faih-sm-em);
+    --faih-input-padding-x: var(--faih-base-em);
+    --faih-input-border-radius: 0.25em;
+    --faih-input-gap: var(--faih-xs-em);
+    --faih-label-margin: var(--faih-tiny-em);
+
+    /* Card Component Scaling */
+    --faih-card-padding: var(--faih-md-em);
+    --faih-card-gap: var(--faih-base-em);
+    --faih-card-radius: 0.5em;
+    --faih-card-inner-gap: var(--faih-sm-em);
+
+    /* Navigation Scaling */
+    --faih-nav-item-padding: var(--faih-sm-em) var(--faih-base-em);
+    --faih-nav-item-gap: var(--faih-xs-em);
+    --faih-nav-section-gap: var(--faih-lg-em);
+
+    /* Icon Scaling */
+    --faih-icon-size-sm: 1em;     /* Matches text size */
+    --faih-icon-size-md: 1.25em;  /* Slightly larger than text */
+    --faih-icon-size-lg: 1.5em;   /* Prominent icon size */
+    --faih-icon-padding: var(--faih-tiny-em);
+
+    /* Layout Composition Tokens */
+    --faih-grid-gap-sm: var(--faih-sm-em);
+    --faih-grid-gap-md: var(--faih-base-em);
+    --faih-grid-gap-lg: var(--faih-lg-em);
+    --faih-flex-gap-sm: var(--faih-xs-em);
+    --faih-flex-gap-md: var(--faih-sm-em);
+
+    /* === TYPOGRAPHY SCALE IN EM === */
+    --faih-text-xs: 0.75em;      /* 12px equivalent */
+    --faih-text-sm: 0.875em;     /* 14px equivalent */
+    --faih-text-base: 1em;       /* 16px equivalent - base size */
+    --faih-text-md: 1.125em;     /* 18px equivalent */
+    --faih-text-lg: 1.25em;      /* 20px equivalent */
+    --faih-text-xl: 1.5em;       /* 24px equivalent */
+    --faih-text-2xl: 1.875em;    /* 30px equivalent */
+    --faih-text-3xl: 2.25em;     /* 36px equivalent */
+    --faih-text-4xl: 3em;        /* 48px equivalent */
+    --faih-text-5xl: 3.75em;     /* 60px equivalent */
+
+    /* === PRACTICAL COMPOSITION TOKENS === */
+
+    /* Padding Compositions */
+    --faih-padding-card: var(--faih-md-em) var(--faih-lg-em);
+    --faih-padding-section: var(--faih-xl-em) var(--faih-base-em);
+    --faih-padding-dense: var(--faih-sm-em) var(--faih-md-em);
+    --faih-padding-generous: var(--faih-lg-em) var(--faih-xl-em);
+    --faih-padding-symmetric-sm: var(--faih-sm-em);
+    --faih-padding-symmetric-md: var(--faih-md-em);
+    --faih-padding-symmetric-lg: var(--faih-lg-em);
+
+    /* Margin Compositions */
+    --faih-margin-stack-sm: 0 0 var(--faih-sm-em) 0;
+    --faih-margin-stack-md: 0 0 var(--faih-md-em) 0;
+    --faih-margin-stack-lg: 0 0 var(--faih-lg-em) 0;
+    --faih-margin-stack-xl: 0 0 var(--faih-xl-em) 0;
+    --faih-margin-inset-sm: var(--faih-sm-em);
+    --faih-margin-inset-md: var(--faih-md-em);
+    --faih-margin-inset-lg: var(--faih-lg-em);
+
+    /* Gap Compositions */
+    --faih-gap-tight: var(--faih-xs-em);
+    --faih-gap-comfort: var(--faih-md-em);
+    --faih-gap-spacious: var(--faih-lg-em);
+    --faih-gap-loose: var(--faih-xl-em);
+
+    /* === COMPONENT STATE SCALING === */
+    --faih-focus-ring: 0.125em solid var(--faih-color-focus-indicator);
+    --faih-focus-offset: 0.125em;
+    --faih-active-scale: 0.98;
+    --faih-hover-lift: 0.25em;
+
+    /* === ANIMATION & TRANSITION SCALING === */
+    --faih-transition-fast: 0.15s ease;
+    --faih-transition-normal: 0.25s ease;
+    --faih-transition-slow: 0.4s ease;
+    --faih-scale-hover: 1.02;
+    --faih-scale-active: 0.98;
+
+    /* === RESPONSIVE EM SCALING === */
+    --faih-responsive-sm: clamp(0.875em, 2vw, 1em);
+    --faih-responsive-md: clamp(1em, 3vw, 1.25em);
+    --faih-responsive-lg: clamp(1.25em, 4vw, 1.5em);
+    --faih-responsive-xl: clamp(1.5em, 5vw, 2em);
+
+}

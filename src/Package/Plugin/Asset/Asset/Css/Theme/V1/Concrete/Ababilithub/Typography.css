@@ -1,0 +1,295 @@
+/* Typography Set 1: Modern Minimalist */
+.ababilithub.minimalist {
+    font-family: 'Inter', 'Helvetica Neue', sans-serif;
+    --faih-letter-extreme-condensed: -0.04em;
+    --faih-letter-ultra-condensed: -0.03em;    /* Ultra condensed for data tables, statistics */
+    --faih-letter-extra-tight: -0.02em;        /* Extra tight for compact UI, labels */
+    --faih-letter-tight: -0.01em;              /* Tight for dense interfaces, buttons */
+    --faih-letter-normal: 0em;                 /* Browser default, neutral spacing */
+    --faih-letter-relaxed: 0.01em;             /* Slightly open for better readability */
+    --faih-letter-open: 0.02em;                /* Open spacing for body text */
+    --faih-letter-spacious: 0.03em;            /* Generous spacing for premium feel */
+    --faih-letter-extra-spacious: 0.05em;      /* Extra spacious for display headings */
+    --faih-letter-ultra-spacious: 0.08em;      /* Ultra spacious for artistic text, logos */
+    --faih-letter-extreme-spacious: 0.1em;
+}
+
+.ababilithub.minimalist h1 { 
+    font-size: var(--faih-xxl-rem); 
+    font-weight: 700; 
+    line-height: var(--faih-line-tight); 
+    letter-spacing: var(--faih-letter-tight-em);
+}
+
+.ababilithub.minimalist h2 { 
+    font-size: var(--faih-xl-rem); 
+    font-weight: 600; 
+    line-height: var(--faih-line-compact); 
+}
+
+.ababilithub.minimalist h3 { 
+    font-size: var(--faih-lg-rem); 
+    font-weight: 500; 
+    line-height: var(--faih-line-normal); 
+}
+
+.ababilithub.minimalist p { 
+    font-size: var(--faih-base-rem); 
+    line-height: var(--faih-line-relaxed); 
+    font-weight: 400; 
+    letter-spacing: var(--faih-letter-tight-em);
+}
+
+/* Typography Set 2: Elegant Serif */
+.ababilithub.elegant {
+    font-family: 'Playfair Display', 'Times New Roman', serif;
+}
+
+.ababilithub.elegant h1 { 
+    font-size: var(--faih-xxl-rem); 
+    font-weight: 700; 
+    line-height: var(--faih-line-dense);
+    letter-spacing: var(--faih-letter-extra-tight-em);
+}
+
+.ababilithub.elegant h2 { 
+    font-size: var(--faih-xl-rem); 
+    font-weight: 600; 
+    font-style: italic;
+    line-height: var(--faih-line-compact);
+}
+
+.ababilithub.elegant h3 { 
+    font-size: var(--faih-lg-rem); 
+    line-height: var(--faih-line-normal); 
+}
+
+.ababilithub.elegant p { 
+    font-size: var(--faih-md-rem); 
+    line-height: var(--faih-line-specious); 
+    font-weight: 400;
+}
+
+/* Typography Set 3: Bold Geometric */
+.ababilithub.geometric {
+    font-family: 'Poppins', 'Arial', sans-serif;
+}
+
+.ababilithub.geometric h1 { 
+    font-size: var(--faih-xxl-rem); 
+    font-weight: 800; 
+    line-height: var(--faih-line-dense);
+    letter-spacing: var(--faih-letter-tightest-em);
+    text-transform: uppercase;
+}
+
+.ababilithub.geometric h2 { 
+    font-size: var(--faih-xl-rem); 
+    font-weight: 700; 
+    line-height: var(--faih-line-tight);
+}
+
+.ababilithub.geometric h3 { 
+    font-size: var(--faih-lg-rem); 
+    font-weight: 600; 
+    line-height: var(--faih-line-compact);
+}
+
+.ababilithub.geometric p { 
+    font-size: var(--faih-base-rem); 
+    line-height: var(--faih-line-comfortable); 
+    font-weight: 500;
+    letter-spacing: var(--faih-letter-open);
+}
+
+/* Typography Set 4: Tech Futuristic */
+.ababilithub.futuristic {
+    font-family: 'Orbitron', 'Courier New', monospace;
+}
+
+.ababilithub.futuristic h1 { 
+    font-size: var(--faih-xxl-rem); 
+    font-weight: 900; 
+    line-height: var(--faih-line-dense);
+    letter-spacing: var(--faih-letter-extreme-spacious);
+    text-transform: uppercase;
+}
+
+.ababilithub.futuristic h2 { 
+    font-size: var(--faih-xl-rem); 
+    font-weight: 700; 
+    line-height: var(--faih-line-tight);
+    letter-spacing: var(--faih-letter-ultra-spacious);
+}
+
+.ababilithub.futuristic h3 { 
+    font-size: var(--faih-lg-rem); 
+    font-weight: 600; 
+    line-height: var(--faih-line-compact);
+}
+
+.ababilithub.futuristic p { 
+    font-size: var(--faih-base-rem); 
+    line-height: var(--faih-line-normal); 
+    font-weight: 500;
+    letter-spacing: var(--faih-letter-extra-spacious);
+}
+
+/* Typography Set 5: Creative Display */
+.ababilithub.creative {
+    font-family: 'Montserrat', 'Arial', sans-serif;
+}
+
+.ababilithub.creative h1 { 
+    font-size: var(--faih-xxl-rem); 
+    font-weight: 900; 
+    line-height: var(--faih-line-tough);
+    letter-spacing: var(--faih-letter-extreme-condensed);
+    text-transform: lowercase;
+    font-variant: small-caps;
+}
+
+.ababilithub.creative h2 { 
+    font-size: var(--faih-xl-rem); 
+    font-weight: 300; 
+    line-height: var(--faih-line-tight);
+    letter-spacing: var(--faih-letter-extreme-spacious);
+}
+
+.ababilithub.creative h3 { 
+    font-size: var(--faih-lg-rem); 
+    font-weight: 600; 
+    line-height: var(--faih-line-compact);
+    font-style: italic;
+}
+
+.ababilithub.creative p { 
+    font-size: var(--faih-md-rem); 
+    line-height: var(--faih-line-relaxed); 
+    font-weight: 400;
+}
+
+/* Typography Set 6: Clean Corporate */
+.ababilithub.corporate {
+    font-family: 'Roboto', 'Arial', sans-serif;
+}
+
+.ababilithub.corporate h1 { 
+    font-size: var(--faih-xxl-rem); 
+    font-weight: 300; 
+    line-height: var(--faih-line-tight);
+    letter-spacing: var(--faih-letter-open);
+}
+
+.ababilithub.corporate h2 { 
+    font-size: var(--faih-xl-rem); 
+    font-weight: 400; 
+    line-height: var(--faih-line-compact);
+}
+
+.ababilithub.corporate h3 { 
+    font-size: var(--faih-lg-rem); 
+    font-weight: 500; 
+    line-height: var(--faih-line-normal);
+}
+
+.ababilithub.corporate p { 
+    font-size: var(--faih-base-rem); 
+    line-height: var(--faih-line-relaxed); 
+    font-weight: 400;
+    letter-spacing: var(--faih-letter-relaxed);
+}
+
+/* Typography Set 7: Artistic Handcrafted */
+.ababilithub.artistic {
+    font-family: 'Caveat', 'Brush Script MT', cursive;
+}
+
+.ababilithub.artistic h1 { 
+    font-size: var(--faih-xxl-rem); 
+    font-weight: 700; 
+    line-height: var(--faih-line-tough);
+    letter-spacing: var(--faih-letter-open);
+}
+
+.ababilithub.artistic h2 { 
+    font-size: var(--faih-xl-rem); 
+    font-weight: 600; 
+    line-height: var(--faih-line-dense);
+}
+
+.ababilithub.artistic h3 { 
+    font-size: var(--faih-lg-rem); 
+    font-weight: 500; 
+    line-height: var(--faih-line-tight);
+}
+
+.ababilithub.artistic p { 
+    font-size: var(--faih-lg-rem); 
+    line-height: var(--faih-line-compact); 
+    font-weight: 400;
+}
+
+/* Typography Set 8: Luxury High-End */
+.ababilithub.luxury {
+    font-family: 'Cormorant Garamond', 'Times New Roman', serif;
+}
+
+.ababilithub.luxury h1 { 
+    font-size: var(--faih-xxl-rem); 
+    font-weight: 300; 
+    line-height: var(--faih-line-dense);
+    letter-spacing: var(--faih-letter-extra-spacious);
+    text-transform: uppercase;
+}
+
+.ababilithub.luxury h2 { 
+    font-size: var(--faih-xl-rem); 
+    font-weight: 300; 
+    line-height: var(--faih-line-compact);
+    font-style: italic;
+}
+
+.ababilithub.luxury h3 { 
+    font-size: var(--faih-lg-rem); 
+    font-weight: 400; 
+    line-height: var(--faih-line-normal);
+}
+
+.ababilithub.luxury p { 
+    font-size: var(--faih-md-rem); 
+    line-height: var(--faih-line-specious); 
+    font-weight: 300;
+    letter-spacing: var(--faih-letter-open);
+}
+
+/* Typography Set 9: Modern Rounded */
+.ababilithub.rounded {
+    font-family: 'Nunito', 'Arial Rounded MT Bold', sans-serif;
+}
+
+.ababilithub.rounded h1 { 
+    font-size: var(--faih-xxl-rem); 
+    font-weight: 800; 
+    line-height: var(--faih-line-dense);
+    letter-spacing: var(--faih-letter-extra-tight);
+}
+
+.ababilithub.rounded h2 { 
+    font-size: var(--faih-xl-rem); 
+    font-weight: 700; 
+    line-height: var(--faih-line-tight);
+}
+
+.ababilithub.rounded h3 { 
+    font-size: var(--faih-lg-rem); 
+    font-weight: 600; 
+    line-height: var(--faih-line-compact);
+}
+
+.ababilithub.rounded p { 
+    font-size: var(--faih-base-rem); 
+    line-height: var(--faih-line-relaxed); 
+    font-weight: 400;
+    letter-spacing: var(--faih-letter-relaxed);
+}

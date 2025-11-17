@@ -1,9 +1,10 @@
-.ababilithub .layout .layout-item .fa-view-btn {
+.ababilithub .layout .layout-item .fa-view-btn 
+{
     padding: 0.5rem 1rem;
-    background: linear-gradient(135deg, var(--fa-primary) 0%, var(--fa-primary-dark) 100%);
-    color: var(--fa-white);
+    background: linear-gradient(135deg, var(--faih-primary) 0%, var(--faih-primary-dark) 100%);
+    color: var(--faih-white);
     border: none;
-    border-radius: var(--fa-border-radius);
+    border-radius: var(--faih-border-radius);
     text-decoration: none;
     font-size: 0.875rem;
     transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
@@ -18,7 +19,7 @@
 
 .ababilithub .layout .layout-item .fa-view-btn:hover 
 {
-    background: linear-gradient(135deg, var(--fa-primary-dark) 0%, #254eda 100%);
+    background: linear-gradient(135deg, var(--faih-primary-dark) 0%, var(--faih-primary) 100%);
     color: white;
     box-shadow: 0 6px 16px rgba(51, 102, 255, 0.4);
     transform: translateY(-2px) scale(1.05);
