@@ -1,0 +1,8 @@
+.root 
+{
+    /* Word Spacing Scale - For word relationship control */
+    --faih-word-tight: -0.05em;         /* Tight word spacing for compact text */
+    --faih-word-normal: 0em;            /* Standard word spacing */
+    --faih-word-relaxed: 0.05em;        /* Slightly increased word spacing */
+    --faih-word-spacious: 0.1em;        /* Generous word spacing for luxury */
+}

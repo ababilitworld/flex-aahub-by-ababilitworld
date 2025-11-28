@@ -1,0 +1,37 @@
+.root 
+{
+    /* Letter Spacing Scale - For character density control */
+    --faih-letter-extreme-condensed: -0.04em;
+    --faih-letter-ultra-condensed: -0.03em;    /* Ultra condensed for data tables, statistics */
+    --faih-letter-extra-tight: -0.02em;        /* Extra tight for compact UI, labels */
+    --faih-letter-tight: -0.01em;              /* Tight for dense interfaces, buttons */
+    --faih-letter-normal: 0em;                 /* Browser default, neutral spacing */
+    --faih-letter-relaxed: 0.01em;             /* Slightly open for better readability */
+    --faih-letter-open: 0.02em;                /* Open spacing for body text */
+    --faih-letter-spacious: 0.03em;            /* Generous spacing for premium feel */
+    --faih-letter-extra-spacious: 0.05em;      /* Extra spacious for display headings */
+    --faih-letter-ultra-spacious: 0.08em;      /* Ultra spacious for artistic text, logos */
+    --faih-letter-extreme-spacious: 0.1em;
+
+    /* Alternative naming option (more semantic): */
+    --faih-letter-data-dense: -0.03em;         /* For data tables, financial numbers */
+    --faih-letter-ui-compact: -0.02em;         /* For compact UI elements, labels */
+    --faih-letter-interface-tight: -0.01em;    /* For dense interface text */
+    --faih-letter-body-standard: 0em;          /* Standard body text spacing */
+    --faih-letter-body-enhanced: 0.01em;       /* Enhanced readability spacing */
+    --faih-letter-body-premium: 0.02em;        /* Premium body text spacing */
+    --faih-letter-heading-standard: 0.03em;    /* Standard heading spacing */
+    --faih-letter-heading-premium: 0.05em;     /* Premium heading spacing */
+    --faih-letter-display-artistic: 0.08em;    /* Artistic display text spacing */
+
+    /* Or using a clear numerical scale: */
+    --faih-letter-n100: -0.03em;               /* Negative 100 - ultra condensed */
+    --faih-letter-n50: -0.02em;                /* Negative 50 - extra tight */
+    --faih-letter-n25: -0.01em;                /* Negative 25 - tight */
+    --faih-letter-0: 0em;                      /* Zero - normal */
+    --faih-letter-25: 0.01em;                  /* Positive 25 - relaxed */
+    --faih-letter-50: 0.02em;                  /* Positive 50 - open */
+    --faih-letter-75: 0.03em;                  /* Positive 75 - spacious */
+    --faih-letter-100: 0.05em;                 /* Positive 100 - extra spacious */
+    --faih-letter-150: 0.08em;                 /* Positive 150 - ultra spacious */
+}

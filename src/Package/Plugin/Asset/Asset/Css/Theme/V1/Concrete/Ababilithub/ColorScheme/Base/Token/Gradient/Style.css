@@ -1,0 +1,94 @@
+.root 
+{ 
+    /* == Universal Gradients == */
+    --faih-color-gradient-royal: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);
+    --faih-color-gradient-ocean-depth: linear-gradient(135deg, #000428, #004e92, #2c3e50);
+    --faih-color-gradient-emerald-luxury: linear-gradient(135deg, #0f9b0f, #00b09b, #96c93d);
+    --faih-color-gradient-sunset-premium: linear-gradient(135deg, #834d9b, #d04ed6, #f5576c);
+    --faih-color-gradient-gold-prestige: linear-gradient(135deg, #D4AF37, #FFD700, #FFEC8B);
+    --faih-color-gradient-corporate-pro: linear-gradient(135deg, #2c3e50, #3498db, #bdc3c7);
+    --faih-color-gradient-tech-futuristic: linear-gradient(135deg, #667eea, #764ba2, #f093fb);
+    --faih-color-gradient-luxury-brand: linear-gradient(135deg, #6a363b, #da98b4, #fad0c4);
+    --faih-color-gradient-financial-elite: linear-gradient(135deg, #0052D4, #4364F7, #6FB1FC);
+
+    /* == ECOMMERCE PRODUCT BACKGROUND GRADIENTS == */
+
+    /* 1. Luxury Jewelry Gold */
+    --faih-gradient-ecommerce-jewelry: linear-gradient(135deg, #D4AF37, #FFD700, #F7EF8A, #D4AF37);
+
+    /* 2. Premium Tech Blue */
+    --faih-gradient-ecommerce-tech: linear-gradient(135deg, #667eea, #764ba2, #86A8E7, #667eea);
+
+    /* 3. Fashion Luxury Purple */
+    --faih-gradient-ecommerce-fashion: linear-gradient(135deg, #654ea3, #da98b4, #ee9ca7, #654ea3);
+
+    /* 4. Beauty & Cosmetics Pink */
+    --faih-gradient-ecommerce-beauty: linear-gradient(135deg, #ff9a9e, #fecfef, #fecfef, #ff9a9e);
+
+    /* 5. Home & Living Warm */
+    --faih-gradient-ecommerce-home: linear-gradient(135deg, #FFECD2, #FCB69F, #FFECD2, #FCB69F);
+
+    /* 6. Health & Wellness Green */
+    --faih-gradient-ecommerce-wellness: linear-gradient(135deg, #56ab2f, #a8e6cf, #56ab2f, #a8e6cf);
+
+    /* 7. Sports & Fitness Energy */
+    --faih-gradient-ecommerce-sports: linear-gradient(135deg, #ff6b6b, #ffd93d, #ff6b6b, #ffd93d);
+
+    /* 8. Luxury Watches Silver */
+    --faih-gradient-ecommerce-watches: linear-gradient(135deg, #BFC0C0, #E2E2E2, #FFFFFF, #BFC0C0);
+
+    /* 9. Premium Automotive */
+    --faih-gradient-ecommerce-automotive: linear-gradient(135deg, #2c3e50, #34495e, #7f8c8d, #2c3e50);
+
+    /* == SPECIALIZED ECOMMERCE GRADIENTS == */
+
+    /* Electronics & Gadgets */
+    --faih-gradient-ecommerce-electronics: linear-gradient(135deg, #485563, #29323c, #485563, #29323c);
+
+    /* Luxury Fashion Black */
+    --faih-gradient-ecommerce-luxury-black: linear-gradient(135deg, #000000, #434343, #000000, #434343);
+
+    /* Organic & Natural */
+    --faih-gradient-ecommerce-organic: linear-gradient(135deg, #c6ffdd, #fbd786, #f7797d, #c6ffdd);
+
+    /* Kids & Toys */
+    --faih-gradient-ecommerce-kids: linear-gradient(135deg, #ffafbd, #ffc3a0, #ffafbd, #ffc3a0);
+
+    /* Office & Stationery */
+    --faih-gradient-ecommerce-office: linear-gradient(135deg, #74b9ff, #0984e3, #74b9ff, #0984e3);
+
+    /* == PRODUCT CATEGORY GRADIENTS == */
+
+    /* Premium Product Showcase */
+    --faih-gradient-product-showcase: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+
+    /* Sale & Discount Badge */
+    --faih-gradient-sale-badge: linear-gradient(135deg, #ff6b6b, #ffd93d, #ff6b6b);
+
+    /* New Arrival Tag */
+    --faih-gradient-new-arrival: linear-gradient(135deg, #4facfe, #00f2fe, #4facfe);
+
+    /* Limited Edition */
+    --faih-gradient-limited-edition: linear-gradient(135deg, #fa709a, #fee140, #fa709a);
+
+    /* Best Seller */
+    --faih-gradient-best-seller: linear-gradient(135deg, #43e97b, #38f9d7, #43e97b);
+
+    /* == ECOMMERCE UTILITY CLASSES == */
+    .product-bg-jewelry { background: var(--faih-gradient-ecommerce-jewelry); }
+    .product-bg-tech { background: var(--faih-gradient-ecommerce-tech); }
+    .product-bg-fashion { background: var(--faih-gradient-ecommerce-fashion); }
+    .product-bg-beauty { background: var(--faih-gradient-ecommerce-beauty); }
+    .product-bg-home { background: var(--faih-gradient-ecommerce-home); }
+    .product-bg-wellness { background: var(--faih-gradient-ecommerce-wellness); }
+    .product-bg-sports { background: var(--faih-gradient-ecommerce-sports); }
+    .product-bg-watches { background: var(--faih-gradient-ecommerce-watches); }
+    .product-bg-automotive { background: var(--faih-gradient-ecommerce-automotive); }
+
+    /* Status Gradients */
+    .product-bg-sale { background: var(--faih-gradient-sale-badge); }
+    .product-bg-new { background: var(--faih-gradient-new-arrival); }
+    .product-bg-limited { background: var(--faih-gradient-limited-edition); }
+    .product-bg-bestseller { background: var(--faih-gradient-best-seller); }
+
+}

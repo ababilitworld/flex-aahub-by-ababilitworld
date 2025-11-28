@@ -1,17 +1,6 @@
 /* Typography Set 1: Modern Minimalist */
 .ababilithub.minimalist {
     font-family: 'Inter', 'Helvetica Neue', sans-serif;
-    --faih-letter-extreme-condensed: -0.04em;
-    --faih-letter-ultra-condensed: -0.03em;    /* Ultra condensed for data tables, statistics */
-    --faih-letter-extra-tight: -0.02em;        /* Extra tight for compact UI, labels */
-    --faih-letter-tight: -0.01em;              /* Tight for dense interfaces, buttons */
-    --faih-letter-normal: 0em;                 /* Browser default, neutral spacing */
-    --faih-letter-relaxed: 0.01em;             /* Slightly open for better readability */
-    --faih-letter-open: 0.02em;                /* Open spacing for body text */
-    --faih-letter-spacious: 0.03em;            /* Generous spacing for premium feel */
-    --faih-letter-extra-spacious: 0.05em;      /* Extra spacious for display headings */
-    --faih-letter-ultra-spacious: 0.08em;      /* Ultra spacious for artistic text, logos */
-    --faih-letter-extreme-spacious: 0.1em;
 }
 
 .ababilithub.minimalist h1 { 

@@ -1,2 +1,6 @@
 @import url('../Base/Style.css');
+@import url('../Concrete/Letter/Style.css');
+@import url('../Concrete/Word/Style.css');
+@import url('../Concrete/Line/Style.css');
+@import url('../Concrete/Indent/Style.css');
 @import url('../Concrete/Paragraph/Style.css');

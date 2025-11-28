@@ -1,0 +1,9 @@
+:root
+{
+    /* Text Indentation - For structured content hierarchy */
+    --faih-indent-none: 0em;            /* No indentation */
+    --faih-indent-sm: 0.5em;            /* Small indentation for lists */
+    --faih-indent-md: 1em;              /* Medium indentation for paragraphs */
+    --faih-indent-lg: 2em;              /* Large indentation for block quotes */
+    --faih-indent-xl: 3em;              /* Extra large for special content */
+}

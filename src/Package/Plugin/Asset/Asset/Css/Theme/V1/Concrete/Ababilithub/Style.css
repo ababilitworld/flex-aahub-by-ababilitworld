@@ -1,6 +1,4 @@
 @import url('Reset.css');
-@import url('Token/Token.css');
-@import url('ColorScheme.css');
-@import url('Typography.css');
-@import url('Spacing.css');
-@import url('Variable.css');
+@import url('Token/Style.css');
+@import url('ColorScheme/Manager/Style.css');
+@import url('Typography/Manager/Style.css');

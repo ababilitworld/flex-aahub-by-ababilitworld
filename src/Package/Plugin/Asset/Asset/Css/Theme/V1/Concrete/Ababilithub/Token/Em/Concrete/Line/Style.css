@@ -1,0 +1,13 @@
+.root 
+{
+    /* Line Height Scale - For vertical rhythm and readability */
+    --faih-line-tough: 1;
+    --faih-line-dense: 1.1;             /* Ultra compact for data displays */
+    --faih-line-tight: 1.2;             /* Tight for UI elements, buttons */
+    --faih-line-compact: 1.3;           /* Compact for dense content */
+    --faih-line-normal: 1.4;            /* Standard for body text */
+    --faih-line-comfortable: 1.5;       /* Comfortable reading experience */
+    --faih-line-relaxed: 1.6;           /* Relaxed for long-form content */
+    --faih-line-spacious: 1.75;         /* Spacious for premium reading */
+    --faih-line-loose: 2;               /* Very loose for luxury publications */
+}

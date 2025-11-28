@@ -1,0 +1,88 @@
+:root {
+    /* === UNIVERSAL SEMANTIC COLORS === */
+    --faih-color-success-50: #e8f5e9;
+    --faih-color-success-500: #4caf50;
+    --faih-color-success-700: #388e3c;
+    --faih-color-warning-50: #fff8e1;
+    --faih-color-warning-500: #ffc107;
+    --faih-color-warning-700: #ff8f00;
+    --faih-color-error-50: #ffebee;
+    --faih-color-error-500: #f44336;
+    --faih-color-error-700: #d32f2f;
+    --faih-color-info-50: #e3f2fd;
+    --faih-color-info-500: #2196f3;
+    --faih-color-info-700: #1976d2;
+
+    /* === UNIVERSAL NEUTRAL COLORS === */
+    --faih-color-neutral-50: #fafafa;
+    --faih-color-neutral-100: #f5f5f5;
+    --faih-color-neutral-200: #eeeeee;
+    --faih-color-neutral-300: #e0e0e0;
+    --faih-color-neutral-400: #bdbdbd;
+    --faih-color-neutral-500: #9e9e9e;
+    --faih-color-neutral-600: #757575;
+    --faih-color-neutral-700: #616161;
+    --faih-color-neutral-800: #424242;
+    --faih-color-neutral-900: #212121;
+
+    /* === UNIVERSAL LUXURY ACCENT COLORS === */
+    --faih-color-accent-gold: #d4af37;
+    --faih-color-accent-bronze: #cd7f32;
+    --faih-color-accent-emerald: #028a0f;
+    --faih-color-accent-sapphire: #0d47a1;
+    --faih-color-accent-amethyst: #6a1b9a;
+
+    /* === UNIVERSAL ACCESSIBILITY ENHANCEMENTS === */
+    --faih-color-focus-indicator: #2196f3;
+    --faih-color-required-indicator: #f44336;
+    --faih-color-visited-link: #6a1b9a;
+
+    /* === UNIVERSAL DATA VISUALIZATION COLORS === */
+    --faih-color-data-01: #4caf50;
+    --faih-color-data-02: #2196f3;
+    --faih-color-data-03: #ff9800;
+    --faih-color-data-04: #9c27b0;
+    --faih-color-data-05: #f44336;
+    --faih-color-data-06: #00bcd4;
+    --faih-color-data-07: #8bc34a;
+    --faih-color-data-08: #ff5722;
+    --faih-color-data-09: #607d8b;
+    --faih-color-data-10: #795548;
+
+    /* === UNIVERSAL STATUS INDICATORS === */
+    --faih-color-status-pending: #ffc107;
+    --faih-color-status-inactive: #9e9e9e;
+    --faih-color-status-completed: #4caf50;
+    --faih-color-status-failed: #f44336;
+    --faih-color-status-warning: #ff9800;
+
+    /* === UNIVERSAL BADGE & TAG COLORS === */
+    --faih-color-badge-success: var(--faih-color-success-100);
+    --faih-color-badge-success-text: var(--faih-color-success-800);
+    --faih-color-badge-warning: var(--faih-color-warning-100);
+    --faih-color-badge-warning-text: var(--faih-color-warning-800);
+    --faih-color-badge-error: var(--faih-color-error-100);
+    --faih-color-badge-error-text: var(--faih-color-error-800);
+    --faih-color-badge-info: var(--faih-color-info-100);
+    --faih-color-badge-info-text: var(--faih-color-info-800);
+    --faih-color-badge-neutral: var(--faih-color-neutral-100);
+    --faih-color-badge-neutral-text: var(--faih-color-neutral-700);
+
+    /* === UNIVERSAL ICON COLORS === */
+    --faih-color-icon-secondary: var(--faih-color-neutral-600);
+    --faih-color-icon-tertiary: var(--faih-color-neutral-400);
+    --faih-color-icon-inverse: #ffffff;
+    --faih-color-icon-success: var(--faih-color-success-500);
+    --faih-color-icon-warning: var(--faih-color-warning-500);
+    --faih-color-icon-error: var(--faih-color-error-500);
+
+    /* === UNIVERSAL OVERLAY COLORS === */
+    --faih-color-overlay-light: rgba(255, 255, 255, 0.72);
+
+    /* === UNIVERSAL INTERACTIVE STATES === */
+    --faih-color-disabled: #f5f5f5;
+
+    /* === UNIVERSAL BORDER COLORS === */
+    --faih-color-border-focus: #2196f3;
+    --faih-color-border-error: #f44336;
+}
